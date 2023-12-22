@@ -1,7 +1,4 @@
-import { FcHome } from "react-icons/fc";
-import { FaBook } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { GiCakeSlice } from "react-icons/gi";
 
 function Nav(){
   return (
@@ -15,7 +12,7 @@ function Nav(){
             >
               Home
             </Link>
-            <FcHome />
+            <span>🏠​</span>
           </div>
           <div className="Contacto-nav">
             <Link
@@ -24,7 +21,7 @@ function Nav(){
             >
               Contacto
             </Link>
-            <FaBook />
+            <span>📒​</span>
           </div>
 
         </div>
@@ -32,7 +29,7 @@ function Nav(){
           <p className="text-white m-0">
             Happy Cake
           </p>
-          <GiCakeSlice />
+          <span>🍰​</span>
         </div>
 
       </nav>

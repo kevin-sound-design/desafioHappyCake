@@ -3,6 +3,7 @@ import './App.css'
 import Nav from './components/Nav'
 import Contacto from './views/Contacto'
 import Home from './views/Home'
+import NotFound from './views/NotFound'
 
 function App() {
 
@@ -14,6 +15,15 @@ function App() {
           path='/'
           element = {<Home />}
         />
+        <Route
+          path='/contacto'
+          element = {<Contacto />}
+        />
+        <Route
+          path='*'
+          element = {<NotFound />}
+        />
+        
       </Routes>
     </>
   )
